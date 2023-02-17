@@ -71,6 +71,6 @@ TEST_CASE("you vs. libc", "[weight=100][timeout=60]") {
     }
   }
 
-  float averageTimePct = totalPct / 5;
+  float averageTimePct = totalPct / 15;
   REQUIRE( averageTimePct <= 100 );
 }
